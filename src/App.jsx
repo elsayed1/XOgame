@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Game from "./components/xoGame";
+import Game from "./components/xoGame/xoGame";
 class App extends Component {
   render() {
     return (
