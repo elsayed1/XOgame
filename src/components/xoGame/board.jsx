@@ -5,7 +5,7 @@ function Square(props) {
   let o = <i class="fa fa-circle-o play two" />;
   return (
     <div className="square" onClick={props.onClick}>
-      {props.value ? (props.value === "X" ? x : o) : ""}
+      {props.value === "X" ? x : props.value === "O" ? o : ""}
     </div>
   );
 }

@@ -117,3 +117,43 @@
 .square .two {
   color: #b196e0;
 }
+
+.msg-page {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, .4);
+  display: none;
+}
+
+.msg {
+  background: #fff;
+  width: 70%;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #2196F3;
+}
+
+.msg p {
+  font-size: 17px;
+  color: #636262;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  word-spacing: 4px;
+}
+
+.msg button {
+  border: none;
+  padding: 9px 20px;
+  color: #fff;
+  background-color: #2495ef;
+  border-radius: 25px;
+  font-size: 15px;
+  cursor: pointer;
+  width: 200px;
+}
